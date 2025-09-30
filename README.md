@@ -1,22 +1,47 @@
 # Desafio 01: Criando sua primeira Landing Page com HTML e CSS
 
-Bem vindo(a) ao primeiro desafio da Trilha de CSS da DIO! Nela, você vai construir sua primeira Landing Page com HTML e CSS, colocando em prática os fundamentos do CSS,
-as propriedades básicas da linguagem de estilização, além de trabalhar com as unidades de medidas relativas e absolutas que aprendemos ao longo da trilha.
+Este repositório contém a minha resolução para o Desafio de Projeto "Criando sua Primeira Landing Page com HTML e CSS", parte da Trilha de CSS da [Digital Innovation One](https://micheleambrosio.github.io/dio-trilha-css-desafio-01/).
 
-[Clique aqui](https://micheleambrosio.github.io/dio-trilha-css-desafio-01/) para acessar o resultado final da Landing Page criada a partir do desafio!
+## O DESAFIO
 
-![image](https://user-images.githubusercontent.com/55519539/183538055-6cce606c-7d1d-4d15-a4be-ffeb5b37c956.png)
+O objetivo deste desafio era construir uma landing page do zero, utilizando como base um protótipo fornecido no Figma. O foco principal foi aplicar os conceitos fundamentais de HTML semântico e estilização com CSS para replicar o design proposto, incluindo:
 
-Para você realizar o desafio, basta fazer um **fork** para o seu GitHub e começar a mexer no projeto.
-Dentro da pasta *main*, você vai encontrar todas as imagens e o arquivo HTML, contendo a estrutura básica da sua página, faltando apenas
-realizar a estilização da sua página. É necessário que você faça toda a parte responsável por interligar sua página HTML com suas folhas
-de estilo para que o resultado da estilização funcione.
+Estruturação correta do conteúdo com tags HTML5.
 
-[Link do Figma](https://www.figma.com/file/3PiokoJj9IhGDnNiWAJbz7/DIO---Desafio-01?node-id=2%3A6) contendo o protótipo do desafio para
-que você possa se basear.
+Estilização de todos os elementos com CSS3.
 
-*Observações: para aplicar os textos em gradiente, utilize a propriedade CSS background-clip, porém, para funcionar em alguns navegadores,
-é necessário utilizar a propriedade -webkit-background-clip: text;*
+Importação e uso de fontes customizadas (Google Fonts).
 
-Caso tenha alguma dúvida, ou queira comparar o resultado do desafio que você fez, nós temos o site finalizado na branch *final*. Basta alterar a branch do projeto
-utilizando o comando `git checkout final` no seu terminal.
+Criação de efeitos visuais, como textos com gradiente.
+
+Organização do layout e posicionamento dos elementos.
+
+[Protótipo do Figma](https://www.figma.com/file/3PiokoJj9IhGDnNiWAJbz7/DIO---Desafio-01?node-id=2%3A6)
+## Resultado Final
+
+Você pode visualizar o resultado final da página [clicando aqui](https://annykaah.github.io/trilha-css-desafio-01/)
+
+(Dica: Para a imagem acima funcionar, tire um print da sua página, salve o arquivo como preview.jpg na pasta principal do seu projeto e envie para o GitHub.)
+
+## Tecnologias Utilizadas
+
+<p>
+  <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img alt="GitHub Pages" src="https://img.shields.io/badge/GitHub%20Pages-181717?style=for-the-badge&logo=github&logoColor=white" />
+</p>
+
+## Como usar
+
+1. Faça um fork deste repositório para sua conta no GitHub.
+2. Clone o fork para sua máquina local:
+   ```bash
+   git clone https://github.com/AnnyKaah/trilha-css-desafio-01.git
+   ```
+3. Abra o arquivo `index.html` no seu navegador de preferência.
+4. Edite o arquivo `styles.css` para personalizar a estilização.
+
+Feito por Anny Karoline 💜 Entre em contato!
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/annykarolinedecarvalhomartins/)
+   

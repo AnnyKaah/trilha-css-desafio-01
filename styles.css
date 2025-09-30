@@ -1,0 +1,186 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fonte e cores base */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  background-color: #fff;
+  line-height: 1.6;
+}
+
+/* Banner */
+.banner {
+  background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+  color: white;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.banner-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.banner .logo img {
+  width: 120px;
+  margin-bottom: 1rem;
+}
+
+.banner h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+
+  /* Texto com gradiente */
+  background: linear-gradient(90deg, #ff8a00, #e52e71);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.banner p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.banner button {
+  background-color: #ff8a00;
+  border: none;
+  padding: 0.75rem 2rem;
+  font-size: 1.1rem;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.banner button:hover {
+  background-color: #e57700;
+}
+
+/* Main */
+main {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+}
+
+/* Seção O que vou aprender */
+#course-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #2575fc;
+}
+
+#course-content p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.modules-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.module {
+  background-color: #f0f4ff;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.module span {
+  color: #2575fc;
+}
+
+/* Seção Transforme o mundo */
+#transform-world {
+  background-color: #2575fc;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+
+  /* Texto com gradiente */
+  background: linear-gradient(90deg, #ff8a00, #e52e71);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+/* Seção desafios profissionais */
+#professional-challenges {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+#professional-challenges h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #2575fc;
+}
+
+#professional-challenges img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+
+#professional-challenges p {
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto;
+  color: #555;
+}
+
+/* Footer */
+footer {
+  background-color: #f0f4ff;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 3rem;
+}
+
+footer .dio-logo {
+  width: 150px;
+  margin-bottom: 1rem;
+}
+
+footer p {
+  font-size: 1rem;
+  color: #333;
+}
+
+footer a {
+  color: #2575fc;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsividade */
+@media (min-width: 768px) {
+  .modules-list {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .module {
+    flex: 1;
+    margin: 0 0.5rem;
+  }
+}
